@@ -3,15 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App';
 import './App2';
-import './incrementnumber';
-import './eventhandling';
+import Bgcolorchange from   './Bgcolorchange';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-<div><incrementnumber />
-<h1 class="Apple">hii</h1>
-</div>
+    <Bgcolorchange>
+    </Bgcolorchange>
 );
 
 // If you want to start measuring performance in your app, pass a function

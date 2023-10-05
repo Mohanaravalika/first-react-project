@@ -8,3 +8,13 @@
   font-size:50px;
   color:blue;
 } 
+
+.Wrapper
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 10px;
+
+}
