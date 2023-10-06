@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App';
 import './App2';
+import CounterApp from './CounterApp'
 import Bgcolorchange from   './Bgcolorchange';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <Bgcolorchange>
-    </Bgcolorchange>
+    <CounterApp />
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,0 +1,23 @@
+
+
+.Countstyle{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.Countstyle button{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 22px;
+    border-radius: 4px;
+}
+
+button.plus{
+    background-color: blue;
+}
+
+button.minus{
+    background-color: red;
+}
